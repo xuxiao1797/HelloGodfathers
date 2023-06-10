@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "849654836213",
+    "firebase_url": "https://hellogodfather-d028b-default-rtdb.firebaseio.com",
+    "project_id": "hellogodfather-d028b",
+    "storage_bucket": "hellogodfather-d028b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849654836213:android:c2e09838e2fb602cba0ebc",
+        "android_client_info": {
+          "package_name": "com.example.hellogodfather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849654836213-bhhcfllab34e0ql82hjkl8jbtclojefm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8uFADInNrhiefPI3jTWcDZTORPd1dW_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849654836213-bhhcfllab34e0ql82hjkl8jbtclojefm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

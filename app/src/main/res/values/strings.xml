@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">HelloGodfather</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Strings for bottom navigation bar -->
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_settings">Setting</string>
+
+    <!-- Strings for post info -->
+    <string name="post_title">PostTitle</string>
+    <string name="post_content">PostContent</string>
+    <string name="userName">UserName</string>
+    <string name="userIcon">UserIcon</string>
+    <string name="post_time">PostTime</string>
+
+
+    <!-- Peng Zhao -->
+    <string name="search">"Search"</string>
+    <string name="search_prompt">"Try @author; #topic"</string>
+    <string name="search_title">Hello!</string>
+    <string name="search_image">search_main_image</string>
+    <string name="avatar">avatar</string>
+    <string name="settings">settings</string>
+    <string name="tab_text_1">Trends</string>
+    <string name="tab_text_2">News</string>
+    <string name="tab_text_3">Sports</string>
+    <string name="main_story_text">Germans cannot imagine a Germany without Angela Merkel</string>
+    <string name="main_story_type">Politics</string>
+    <string name="main_story_time">3 hrs ago</string>
+    <string name="search_prompt_2">Try @username #Topic. Use , to separate different usernames or topics. Use ; to separate usernames and topics</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gpsactivity">GPSActivity</string>
+    <string name="write_something">Write Something...</string>
+
+</resources>

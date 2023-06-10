@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/costraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".IndividualPostActivity">
+
+    <TextView
+        android:id="@+id/ind_post_content"
+        android:layout_width="0dp"
+        android:layout_height="232dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="-105dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/post_content"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ind_like_post"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ind_post_time"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <ImageButton
+        android:id="@+id/btn_userIcon"
+        android:layout_width="75dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ind_back"
+        app:srcCompat="@drawable/default_profile" />
+
+    <TextView
+        android:id="@+id/ind_userName"
+        android:layout_width="85dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/userName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/btn_userIcon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ind_post_time"
+        android:layout_width="237dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/post_time"
+        android:textColor="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ind_userName"
+        app:layout_constraintTop_toBottomOf="@+id/ind_userName" />
+
+    <ImageButton
+        android:id="@+id/ind_back"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
+        android:background="#00000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageButton
+        android:id="@+id/ind_like_post"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ind_retweet"
+        app:srcCompat="@drawable/ic_baseline_favorite_border_24" />
+
+    <ImageButton
+        android:id="@+id/ind_retweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:background="#00000000"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_reply_24" />
+
+    <ImageButton
+        android:id="@+id/ind_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#00000000"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ind_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_report_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
